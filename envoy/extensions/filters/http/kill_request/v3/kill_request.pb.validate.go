@@ -33,6 +33,9 @@ var (
 	_ = ptypes.DynamicAny{}
 )
 
+// define the regex for a UUID once up-front
+var _kill_request_uuidPattern = regexp.MustCompile("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
+
 // Validate checks the field values on KillRequest with the rules defined in
 // the proto definition for this message. If any rules are violated, an error
 // is returned.
@@ -51,12 +54,7 @@ func (m *KillRequest) Validate() error {
 		}
 	}
 
-	if !_KillRequest_KillRequestHeader_Pattern.MatchString(m.GetKillRequestHeader()) {
-		return KillRequestValidationError{
-			field:  "KillRequestHeader",
-			reason: "value does not match regex pattern \"^[^\\x00\\n\\r]*$\"",
-		}
-	}
+	// no validation rules for KillRequestHeader
 
 	return nil
 }
@@ -114,5 +112,3 @@ var _ interface {
 	Cause() error
 	ErrorName() string
 } = KillRequestValidationError{}
-
-var _KillRequest_KillRequestHeader_Pattern = regexp.MustCompile("^[^\x00\n\r]*$")

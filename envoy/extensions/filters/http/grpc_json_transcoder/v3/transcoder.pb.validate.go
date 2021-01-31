@@ -33,12 +33,22 @@ var (
 	_ = ptypes.DynamicAny{}
 )
 
+// define the regex for a UUID once up-front
+var _transcoder_uuidPattern = regexp.MustCompile("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
+
 // Validate checks the field values on GrpcJsonTranscoder with the rules
 // defined in the proto definition for this message. If any rules are
 // violated, an error is returned.
 func (m *GrpcJsonTranscoder) Validate() error {
 	if m == nil {
 		return nil
+	}
+
+	if len(m.GetServices()) < 1 {
+		return GrpcJsonTranscoderValidationError{
+			field:  "Services",
+			reason: "value must contain at least 1 item(s)",
+		}
 	}
 
 	if v, ok := interface{}(m.GetPrintOptions()).(interface{ Validate() error }); ok {
@@ -65,8 +75,6 @@ func (m *GrpcJsonTranscoder) Validate() error {
 			reason: "value must be one of the defined enum values",
 		}
 	}
-
-	// no validation rules for StrictHttpRequestValidation
 
 	switch m.DescriptorSet.(type) {
 

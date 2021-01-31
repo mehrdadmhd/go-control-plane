@@ -33,6 +33,9 @@ var (
 	_ = ptypes.DynamicAny{}
 )
 
+// define the regex for a UUID once up-front
+var _http_connection_manager_uuidPattern = regexp.MustCompile("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
+
 // Validate checks the field values on HttpConnectionManager with the rules
 // defined in the proto definition for this message. If any rules are
 // violated, an error is returned.
@@ -329,6 +332,8 @@ func (m *HttpConnectionManager) Validate() error {
 		}
 	}
 
+	// no validation rules for StripMatchingHostPort
+
 	if v, ok := interface{}(m.GetStreamErrorOnInvalidHttpMessage()).(interface{ Validate() error }); ok {
 		if err := v.Validate(); err != nil {
 			return HttpConnectionManagerValidationError{
@@ -382,16 +387,6 @@ func (m *HttpConnectionManager) Validate() error {
 			field:  "RouteSpecifier",
 			reason: "value is required",
 		}
-
-	}
-
-	switch m.StripPortMode.(type) {
-
-	case *HttpConnectionManager_StripMatchingHostPort:
-		// no validation rules for StripMatchingHostPort
-
-	case *HttpConnectionManager_StripAnyHostPort:
-		// no validation rules for StripAnyHostPort
 
 	}
 
