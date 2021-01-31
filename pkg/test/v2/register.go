@@ -18,15 +18,15 @@ package test
 import (
 	"google.golang.org/grpc"
 
-	clusterservice "github.com/envoyproxy/go-control-plane/envoy/api/v2"
-	endpointservice "github.com/envoyproxy/go-control-plane/envoy/api/v2"
-	listenerservice "github.com/envoyproxy/go-control-plane/envoy/api/v2"
-	routeservice "github.com/envoyproxy/go-control-plane/envoy/api/v2"
-	accessloggrpc "github.com/envoyproxy/go-control-plane/envoy/service/accesslog/v2"
-	discoverygrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2"
-	runtimeservice "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2"
-	secretservice "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2"
-	"github.com/envoyproxy/go-control-plane/pkg/server/v2"
+	clusterservice "github.com/mehrdadmhd/go-control-plane/envoy/api/v2"
+	endpointservice "github.com/mehrdadmhd/go-control-plane/envoy/api/v2"
+	listenerservice "github.com/mehrdadmhd/go-control-plane/envoy/api/v2"
+	routeservice "github.com/mehrdadmhd/go-control-plane/envoy/api/v2"
+	accessloggrpc "github.com/mehrdadmhd/go-control-plane/envoy/service/accesslog/v2"
+	discoverygrpc "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v2"
+	runtimeservice "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v2"
+	secretservice "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v2"
+	"github.com/mehrdadmhd/go-control-plane/pkg/server/v2"
 )
 
 // RegisterAccessLogServer starts an accessloggrpc service.

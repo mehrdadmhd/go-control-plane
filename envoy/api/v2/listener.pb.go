@@ -8,10 +8,10 @@ package envoy_api_v2
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	listener "github.com/envoyproxy/go-control-plane/envoy/api/v2/listener"
-	v21 "github.com/envoyproxy/go-control-plane/envoy/config/filter/accesslog/v2"
-	v2 "github.com/envoyproxy/go-control-plane/envoy/config/listener/v2"
+	core "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/core"
+	listener "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/listener"
+	v21 "github.com/mehrdadmhd/go-control-plane/envoy/config/filter/accesslog/v2"
+	v2 "github.com/mehrdadmhd/go-control-plane/envoy/config/listener/v2"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"

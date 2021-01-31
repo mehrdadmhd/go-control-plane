@@ -8,8 +8,8 @@ package envoy_config_filter_network_local_rate_limit_v2alpha
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
+	core "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/core"
+	_type "github.com/mehrdadmhd/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

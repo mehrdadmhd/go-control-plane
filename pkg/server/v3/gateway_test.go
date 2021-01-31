@@ -23,12 +23,12 @@ import (
 	"testing"
 	"testing/iotest"
 
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/resource/v3"
-	rsrc "github.com/envoyproxy/go-control-plane/pkg/resource/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/server/v3"
+	discovery "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/resource/v3"
+	rsrc "github.com/mehrdadmhd/go-control-plane/pkg/resource/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/server/v3"
 )
 
 type logger struct {

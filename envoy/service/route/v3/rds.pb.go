@@ -9,8 +9,8 @@ package envoy_service_route_v3
 import (
 	context "context"
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
+	_ "github.com/mehrdadmhd/go-control-plane/envoy/annotations"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	_ "github.com/golang/protobuf/ptypes/wrappers"

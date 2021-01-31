@@ -1,7 +1,7 @@
 package ttl
 
 import (
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
 	"github.com/golang/protobuf/ptypes/any"
 )
 

@@ -8,9 +8,9 @@ package envoy_config_rbac_v3
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v32 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
+	v32 "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v3"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/config/route/v3"
+	v31 "github.com/mehrdadmhd/go-control-plane/envoy/type/matcher/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	v1alpha1 "google.golang.org/genproto/googleapis/api/expr/v1alpha1"

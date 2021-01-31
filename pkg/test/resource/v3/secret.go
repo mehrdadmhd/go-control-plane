@@ -16,8 +16,8 @@
 package resource
 
 import (
-	core "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	auth "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
+	core "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v3"
+	auth "github.com/mehrdadmhd/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 )
 
 const (

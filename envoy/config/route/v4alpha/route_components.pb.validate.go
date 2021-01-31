@@ -17,7 +17,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	v4alpha "github.com/envoyproxy/go-control-plane/envoy/config/core/v4alpha"
+	v4alpha "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v4alpha"
 )
 
 // ensure the imports are used

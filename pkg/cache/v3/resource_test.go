@@ -19,12 +19,12 @@ import (
 	"reflect"
 	"testing"
 
-	cluster "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
-	route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	v2route "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/test/resource/v3"
+	cluster "github.com/mehrdadmhd/go-control-plane/envoy/config/cluster/v3"
+	route "github.com/mehrdadmhd/go-control-plane/envoy/config/route/v3"
+	v2route "github.com/mehrdadmhd/go-control-plane/envoy/config/route/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/test/resource/v3"
 )
 
 const (

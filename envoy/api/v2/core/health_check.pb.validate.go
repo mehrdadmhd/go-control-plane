@@ -17,7 +17,7 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
+	_type "github.com/mehrdadmhd/go-control-plane/envoy/type"
 )
 
 // ensure the imports are used

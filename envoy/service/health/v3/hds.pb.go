@@ -9,9 +9,9 @@ package envoy_service_health_v3
 import (
 	context "context"
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v32 "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"
+	v32 "github.com/mehrdadmhd/go-control-plane/envoy/config/cluster/v3"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v3"
+	v31 "github.com/mehrdadmhd/go-control-plane/envoy/config/endpoint/v3"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	_ "google.golang.org/genproto/googleapis/api/annotations"

@@ -8,9 +8,9 @@ package envoy_config_filter_network_tcp_proxy_v2
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	v2 "github.com/envoyproxy/go-control-plane/envoy/config/filter/accesslog/v2"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
+	core "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/core"
+	v2 "github.com/mehrdadmhd/go-control-plane/envoy/config/filter/accesslog/v2"
+	_type "github.com/mehrdadmhd/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"

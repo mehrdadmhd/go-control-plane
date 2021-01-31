@@ -9,9 +9,9 @@ package envoy_service_status_v2
 import (
 	context "context"
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v2alpha "github.com/envoyproxy/go-control-plane/envoy/admin/v2alpha"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	matcher "github.com/envoyproxy/go-control-plane/envoy/type/matcher"
+	v2alpha "github.com/mehrdadmhd/go-control-plane/envoy/admin/v2alpha"
+	core "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/core"
+	matcher "github.com/mehrdadmhd/go-control-plane/envoy/type/matcher"
 	proto "github.com/golang/protobuf/proto"
 	_ "github.com/golang/protobuf/ptypes/struct"
 	_ "google.golang.org/genproto/googleapis/api/annotations"

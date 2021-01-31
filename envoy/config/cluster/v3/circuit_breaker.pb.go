@@ -8,8 +8,8 @@ package envoy_config_cluster_v3
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/type/v3"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v3"
+	v31 "github.com/mehrdadmhd/go-control-plane/envoy/type/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"

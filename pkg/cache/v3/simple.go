@@ -22,8 +22,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/log"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
+	"github.com/mehrdadmhd/go-control-plane/pkg/log"
 )
 
 // SnapshotCache is a snapshot-based cache that maintains a single versioned
@@ -319,7 +319,7 @@ func (cache *snapshotCache) cancelWatch(nodeID string, watchID int64) func() {
 }
 
 // Respond to a watch with the snapshot value. The value channel should have capacity not to block.
-// TODO(kuat) do not respond always, see issue https://github.com/envoyproxy/go-control-plane/issues/46
+// TODO(kuat) do not respond always, see issue https://github.com/mehrdadmhd/go-control-plane/issues/46
 func (cache *snapshotCache) respond(request *Request, value chan Response, resources map[string]types.ResourceWithTtl, version string, heartbeat bool) {
 	// for ADS, the request names must match the snapshot names
 	// if they do not, then the watch is never responded, and it is expected that envoy makes another request

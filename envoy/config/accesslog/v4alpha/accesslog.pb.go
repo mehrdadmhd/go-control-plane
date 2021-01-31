@@ -8,10 +8,10 @@ package envoy_config_accesslog_v4alpha
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v4alpha "github.com/envoyproxy/go-control-plane/envoy/config/core/v4alpha"
-	v4alpha1 "github.com/envoyproxy/go-control-plane/envoy/config/route/v4alpha"
-	v4alpha2 "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v4alpha"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/type/v3"
+	v4alpha "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v4alpha"
+	v4alpha1 "github.com/mehrdadmhd/go-control-plane/envoy/config/route/v4alpha"
+	v4alpha2 "github.com/mehrdadmhd/go-control-plane/envoy/type/matcher/v4alpha"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/type/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"

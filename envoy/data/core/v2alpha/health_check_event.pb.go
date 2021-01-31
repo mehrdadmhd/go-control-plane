@@ -8,7 +8,7 @@ package envoy_data_core_v2alpha
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
+	core "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/core"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	timestamp "github.com/golang/protobuf/ptypes/timestamp"

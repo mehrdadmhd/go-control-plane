@@ -8,7 +8,7 @@ package envoy_config_trace_v2
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
+	_ "github.com/mehrdadmhd/go-control-plane/envoy/annotations"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"

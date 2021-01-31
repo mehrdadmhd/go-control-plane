@@ -8,7 +8,7 @@ package envoy_config_listener_v4alpha
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v4alpha "github.com/envoyproxy/go-control-plane/envoy/config/core/v4alpha"
+	v4alpha "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v4alpha"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"

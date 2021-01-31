@@ -8,7 +8,7 @@ package envoy_admin_v4alpha
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v4alpha "github.com/envoyproxy/go-control-plane/envoy/config/core/v4alpha"
+	v4alpha "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v4alpha"
 	proto "github.com/golang/protobuf/proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

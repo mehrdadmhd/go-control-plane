@@ -1,8 +1,8 @@
 package ttl
 
 import (
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
+	discovery "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/any"

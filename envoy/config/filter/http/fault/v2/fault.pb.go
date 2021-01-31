@@ -8,9 +8,9 @@ package envoy_config_filter_http_fault_v2
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	route "github.com/envoyproxy/go-control-plane/envoy/api/v2/route"
-	v2 "github.com/envoyproxy/go-control-plane/envoy/config/filter/fault/v2"
-	_type "github.com/envoyproxy/go-control-plane/envoy/type"
+	route "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/route"
+	v2 "github.com/mehrdadmhd/go-control-plane/envoy/config/filter/fault/v2"
+	_type "github.com/mehrdadmhd/go-control-plane/envoy/type"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"

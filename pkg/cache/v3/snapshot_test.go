@@ -18,10 +18,10 @@ package cache_test
 import (
 	"testing"
 
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	rsrc "github.com/envoyproxy/go-control-plane/pkg/resource/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/test/resource/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/v3"
+	rsrc "github.com/mehrdadmhd/go-control-plane/pkg/resource/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/test/resource/v3"
 )
 
 func TestSnapshotConsistent(t *testing.T) {

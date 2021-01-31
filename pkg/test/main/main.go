@@ -26,16 +26,16 @@ import (
 	"os"
 	"time"
 
-	cachev2 "github.com/envoyproxy/go-control-plane/pkg/cache/v2"
-	cachev3 "github.com/envoyproxy/go-control-plane/pkg/cache/v3"
-	serverv2 "github.com/envoyproxy/go-control-plane/pkg/server/v2"
-	serverv3 "github.com/envoyproxy/go-control-plane/pkg/server/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/test"
-	testv2 "github.com/envoyproxy/go-control-plane/pkg/test/v2"
-	testv3 "github.com/envoyproxy/go-control-plane/pkg/test/v3"
+	cachev2 "github.com/mehrdadmhd/go-control-plane/pkg/cache/v2"
+	cachev3 "github.com/mehrdadmhd/go-control-plane/pkg/cache/v3"
+	serverv2 "github.com/mehrdadmhd/go-control-plane/pkg/server/v2"
+	serverv3 "github.com/mehrdadmhd/go-control-plane/pkg/server/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/test"
+	testv2 "github.com/mehrdadmhd/go-control-plane/pkg/test/v2"
+	testv3 "github.com/mehrdadmhd/go-control-plane/pkg/test/v3"
 
-	resourcev2 "github.com/envoyproxy/go-control-plane/pkg/test/resource/v2"
-	resourcev3 "github.com/envoyproxy/go-control-plane/pkg/test/resource/v3"
+	resourcev2 "github.com/mehrdadmhd/go-control-plane/pkg/test/resource/v2"
+	resourcev3 "github.com/mehrdadmhd/go-control-plane/pkg/test/resource/v3"
 )
 
 var (

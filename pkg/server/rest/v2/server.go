@@ -18,8 +18,8 @@ package rest
 import (
 	"context"
 	"errors"
-	discovery "github.com/envoyproxy/go-control-plane/envoy/api/v2"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v2"
+	discovery "github.com/mehrdadmhd/go-control-plane/envoy/api/v2"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/v2"
 )
 
 type Server interface {

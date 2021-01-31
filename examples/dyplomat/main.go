@@ -8,15 +8,15 @@ import (
 
 	"google.golang.org/grpc"
 
-	api "github.com/envoyproxy/go-control-plane/envoy/api/v2"
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/v2"
-	xds "github.com/envoyproxy/go-control-plane/pkg/server/v2"
+	api "github.com/mehrdadmhd/go-control-plane/envoy/api/v2"
+	discovery "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v2"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/v2"
+	xds "github.com/mehrdadmhd/go-control-plane/pkg/server/v2"
 
-	endpoint "github.com/envoyproxy/go-control-plane/envoy/api/v2"
-	core "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	endpointv2 "github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint"
+	endpoint "github.com/mehrdadmhd/go-control-plane/envoy/api/v2"
+	core "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/core"
+	endpointv2 "github.com/mehrdadmhd/go-control-plane/envoy/api/v2/endpoint"
 
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/informers"

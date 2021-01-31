@@ -8,10 +8,10 @@ package envoy_extensions_filters_http_oauth2_v3alpha
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v33 "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
-	v32 "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
+	v31 "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v3"
+	v33 "github.com/mehrdadmhd/go-control-plane/envoy/config/route/v3"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
+	v32 "github.com/mehrdadmhd/go-control-plane/envoy/type/matcher/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	_ "github.com/golang/protobuf/ptypes/duration"

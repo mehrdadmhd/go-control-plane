@@ -8,7 +8,7 @@ package envoy_service_auth_v2alpha
 
 import (
 	context "context"
-	v2 "github.com/envoyproxy/go-control-plane/envoy/service/auth/v2"
+	v2 "github.com/mehrdadmhd/go-control-plane/envoy/service/auth/v2"
 	proto "github.com/golang/protobuf/proto"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"

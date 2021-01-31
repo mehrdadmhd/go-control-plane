@@ -9,8 +9,8 @@ package envoy_service_ratelimit_v3
 import (
 	context "context"
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/common/ratelimit/v3"
+	v31 "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v3"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/extensions/common/ratelimit/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"

@@ -24,10 +24,10 @@ import (
 
 	"github.com/golang/protobuf/jsonpb"
 
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/envoyproxy/go-control-plane/pkg/log"
-	"github.com/envoyproxy/go-control-plane/pkg/resource/v3"
+	discovery "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
+	"github.com/mehrdadmhd/go-control-plane/pkg/log"
+	"github.com/mehrdadmhd/go-control-plane/pkg/resource/v3"
 )
 
 // HTTPGateway is a custom implementation of [gRPC gateway](https://github.com/grpc-ecosystem/grpc-gateway)

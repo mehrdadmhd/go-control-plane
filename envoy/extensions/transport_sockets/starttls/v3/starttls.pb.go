@@ -8,8 +8,8 @@ package envoy_extensions_transport_sockets_starttls_v3
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/raw_buffer/v3"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/extensions/transport_sockets/raw_buffer/v3"
+	v31 "github.com/mehrdadmhd/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	_ "github.com/golang/protobuf/ptypes/wrappers"

@@ -8,7 +8,7 @@ package envoy_config_filter_http_tap_v2alpha
 
 import (
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v2alpha "github.com/envoyproxy/go-control-plane/envoy/config/common/tap/v2alpha"
+	v2alpha "github.com/mehrdadmhd/go-control-plane/envoy/config/common/tap/v2alpha"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

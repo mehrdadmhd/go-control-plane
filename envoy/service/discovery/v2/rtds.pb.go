@@ -9,8 +9,8 @@ package envoy_service_discovery_v2
 import (
 	context "context"
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
-	v2 "github.com/envoyproxy/go-control-plane/envoy/api/v2"
+	_ "github.com/mehrdadmhd/go-control-plane/envoy/annotations"
+	v2 "github.com/mehrdadmhd/go-control-plane/envoy/api/v2"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	_struct "github.com/golang/protobuf/ptypes/struct"

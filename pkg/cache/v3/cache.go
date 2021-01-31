@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	discovery "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	ttl "github.com/envoyproxy/go-control-plane/pkg/ttl/v3"
+	discovery "github.com/mehrdadmhd/go-control-plane/envoy/service/discovery/v3"
+	"github.com/mehrdadmhd/go-control-plane/pkg/cache/types"
+	ttl "github.com/mehrdadmhd/go-control-plane/pkg/ttl/v3"
 	"github.com/golang/protobuf/ptypes/any"
 )
 

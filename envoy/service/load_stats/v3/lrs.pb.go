@@ -9,8 +9,8 @@ package envoy_service_load_stats_v3
 import (
 	context "context"
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
-	v31 "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"
+	v3 "github.com/mehrdadmhd/go-control-plane/envoy/config/core/v3"
+	v31 "github.com/mehrdadmhd/go-control-plane/envoy/config/endpoint/v3"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"

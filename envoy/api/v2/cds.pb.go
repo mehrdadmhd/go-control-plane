@@ -9,7 +9,7 @@ package envoy_api_v2
 import (
 	context "context"
 	_ "github.com/cncf/udpa/go/udpa/annotations"
-	_ "github.com/envoyproxy/go-control-plane/envoy/annotations"
+	_ "github.com/mehrdadmhd/go-control-plane/envoy/annotations"
 	proto "github.com/golang/protobuf/proto"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	grpc "google.golang.org/grpc"
