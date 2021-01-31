@@ -39,6 +39,9 @@ var (
 	_ = v3.RequestMethod(0)
 )
 
+// define the regex for a UUID once up-front
+var _route_components_uuidPattern = regexp.MustCompile("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
+
 // Validate checks the field values on VirtualHost with the rules defined in
 // the proto definition for this message. If any rules are violated, an error
 // is returned.
@@ -53,6 +56,8 @@ func (m *VirtualHost) Validate() error {
 			reason: "value length must be at least 1 runes",
 		}
 	}
+
+	// no validation rules for IsDefault
 
 	if len(m.GetDomains()) < 1 {
 		return VirtualHostValidationError{
@@ -4769,18 +4774,6 @@ func (m *RateLimit_Action) Validate() error {
 			if err := v.Validate(); err != nil {
 				return RateLimit_ActionValidationError{
 					field:  "Metadata",
-					reason: "embedded message failed validation",
-					cause:  err,
-				}
-			}
-		}
-
-	case *RateLimit_Action_Extension:
-
-		if v, ok := interface{}(m.GetExtension()).(interface{ Validate() error }); ok {
-			if err := v.Validate(); err != nil {
-				return RateLimit_ActionValidationError{
-					field:  "Extension",
 					reason: "embedded message failed validation",
 					cause:  err,
 				}
